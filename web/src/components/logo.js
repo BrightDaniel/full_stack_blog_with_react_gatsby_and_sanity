@@ -7,7 +7,7 @@ function Logo() {
   return (
     <LogoStyles to="/">
       {/* <GrTechnology /> */}
-      <img src={logo} alt="Logo" />
+      <img src={logo} alt="Iv Quest Logo" />
     </LogoStyles>
   );
 }
