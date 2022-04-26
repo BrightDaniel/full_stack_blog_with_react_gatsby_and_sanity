@@ -1,6 +1,6 @@
 import React from 'react';
 // import { GrTechnology } from 'react-icons/gr';
-import logo from '../../public/home.png';
+import logo from './home.png';
 import LogoStyles from '../styles/LogoStyles';
 
 function Logo() {
