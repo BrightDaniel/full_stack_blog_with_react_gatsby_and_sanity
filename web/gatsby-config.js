@@ -20,6 +20,13 @@ module.exports = {
         ...sanityConfig,
       },
     },
+    // {
+    //   resolve: 'gatsby-plugin-manifest',
+    //   options: {
+    //     icon: 'src/assets/images/icon.png',
+    //   },
+    // },
+
     {
       resolve: 'gatsby-plugin-local-search',
       options: {
