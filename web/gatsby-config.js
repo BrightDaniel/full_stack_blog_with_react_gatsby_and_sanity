@@ -26,7 +26,18 @@ module.exports = {
     //     icon: 'src/assets/images/icon.png',
     //   },
     // },
-
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `GatsbyJS`,
+        short_name: `GatsbyJS`,
+        start_url: `/`,
+        background_color: `#f7f0eb`,
+        theme_color: `#a2466c`,
+        display: `standalone`,
+        icon: `./iv-quest-blog.jpg`,
+      },
+    },
     {
       resolve: 'gatsby-plugin-local-search',
       options: {
