@@ -5,7 +5,7 @@ const sanityConfig = require('./sanity-config');
 module.exports = {
   siteMetadata: {
     title: `IV Quest blog`,
-    siteUrl: `https://ivquest.cf`,
+    siteUrl: `https://www.ivquest.cf`,
     description: `Iv Quest blog provides the latest and reliable educative information about various subject, such as: 'How to make money online, Google career job opportunites, Handshake, Relationship and love advice, walmart, target,  long distant relationships, ups etc`,
     image: `./iv-quest-blog.jpg`,
     keywords: `Quest Blog, Make money online, How to make money online, Target, Handshake, Relationship and love advice, Long distant relationship, Google career job, google, Job opportunities, walmart, Ups, how to work online, educative information,`,
