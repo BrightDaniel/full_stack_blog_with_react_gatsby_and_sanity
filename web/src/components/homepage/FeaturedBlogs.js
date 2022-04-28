@@ -37,10 +37,10 @@ function FeaturedBlogs() {
   const featuredBlogs = data.allSanityFeatured.nodes[0].blog;
   return (
     <FeaturedBlogsStyles>
-      <SectionTitle>Featured Blogs</SectionTitle>
+      <SectionTitle>Featured Posts</SectionTitle>
       <ParagraphText className="featuredBlogs__text">
         Get all the information you need as regards Making money online,
-        Relationship advice for both genders, Carrer Oportunities and much more
+        Relationship advice for both genders, Career Oportunities and much more
         in our different blog posts below.
       </ParagraphText>
       <BlogGrid blogs={featuredBlogs} />
