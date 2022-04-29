@@ -5,7 +5,7 @@ export const SingleBlogStyles = styled.div`
   margin: 0 auto;
 
   .blog-cover-image {
-    height: 300px;
+    height: 100%;
     margin-bottom: 2rem;
   }
   .title {

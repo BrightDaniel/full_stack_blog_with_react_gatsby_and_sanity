@@ -9,19 +9,18 @@ module.exports = {
     description: `Iv Quest blog provides the latest and reliable educative information about various subject, such as: 'How to make money online, Google career job opportunites, Handshake, Relationship and love advice, walmart, target,  long distant relationships, ups etc`,
     image: `./iv-quest-blog.jpg`,
     keywords: `Quest Blog, Make money online, How to make money online, Target, Handshake, Relationship and love advice, Long distant relationship, Google career job, google, Job opportunities, walmart, Ups, how to work online, educative information,`,
+    author: `Quest`,
   },
   plugins: [
+    'gatsby-plugin-sitemap',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-image',
     'gatsby-plugin-sharp',
-    'gatsby-plugin-sitemap',
-    'gatsby-plugin-robots-txt',
     'gatsby-transformer-sharp',
     'gatsby-plugin-styled-components',
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
-        // You can add multiple tracking ids and a pageview event will be fired for all of them.
         trackingIds: [
           'G-03QT3VP79C', // Google Analytics / GA
         ],

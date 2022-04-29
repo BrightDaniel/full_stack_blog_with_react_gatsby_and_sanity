@@ -24,7 +24,6 @@ function HeroSection() {
               className="hero__image"
               src="../../images/iv-quest-blog.jpg"
               alt="Iv Quest Blog"
-              placeholder="blurred"
               objectPosition="50% 30%"
             />
           </div>

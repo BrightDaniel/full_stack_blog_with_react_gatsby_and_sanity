@@ -55,7 +55,7 @@ function SingleBlog({ data }) {
             <GatsbyImage
               image={blog.coverImage.asset.gatsbyImageData}
               alt={blog.coverImage.alt}
-              // className="blog-cover-image"
+              className="blog-cover-image"
             />
             <Title className="title">{blog.title}</Title>
             <ParagraphText className="publishedAt">
